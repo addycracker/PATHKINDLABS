@@ -1,0 +1,219 @@
+
+/* Universal CSS */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+body{
+     font-family: 'Montserrat', sans-serif;
+}
+a{text-decoration: none;}
+p{font-size: 14px;}
+.heading-small{    
+  color: #394e59;
+  font-size: 20px;
+  font-weight: 700;
+  position: relative;
+  margin-bottom: 30px;
+}
+.heading-small:before{
+  display: block;
+  content: '';
+  border-radius: 4px;
+  background-color: #ffcb03;
+  width: 32px;
+  height: 8px;
+  position: absolute;
+  bottom: -18px;
+}
+/* Top-Header CSS */
+.main-top-header{background-color: #fff;box-shadow: 0 1px 15px #00000030;}
+.site-header{    padding: 30px 20px 18px 20px;}
+
+/* Hero section start style */
+.hero{
+  background-color: #f4f7f8;
+}
+.hero .col-lg-6.col-md-6.col-sm-12{
+  padding-right: 0;
+}
+.hero .schedule-home-card{
+      width: 70%;
+    background-image: linear-gradient(to top, #e4ebed, #ffffff 37%);
+    box-sizing: border-box;
+    box-shadow: 0 17px 40px 0 rgba(0, 0, 0, 0.16);
+    border-radius: 10px;
+    padding: 40px 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.schedule-home-card h3{
+    color: #004368;
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+.schedule-home-card p{
+    color: #004368;
+    font-size: 14px;
+    font-weight: 500;
+}
+.hero .custom-form-control{
+    width: 100%;
+    margin: 5px 0;
+    border-radius: 50px;
+    border: 0px;
+    background-color: #00436814;
+        padding: 13px 20px;
+    outline: none;
+    font-size: 13px;
+    font-weight: 500;
+}
+.hero .custom-form-btn{
+    width: 100%;
+    background-color: #004368;
+    border: 0;
+    border-radius: 50px;
+    padding: 14px 10px;
+    margin-top: 15px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    transition: 0.3s;
+}
+.hero .custom-form-btn:hover{
+   background-color:#f8cc45;
+   transition: 0.3s;
+   color: #004368;
+}
+
+/* footer css */
+.footer-sec{
+  padding: 50px 0;
+}
+.footer-heading{
+  color: #394e59;
+    font-size: 15px;
+    font-weight: 600;
+}
+.footer-links{
+  list-style: none;
+  padding: 0;
+}
+.footer-links li a{
+  color: #394e59;
+    font-size: 12px;
+    margin-bottom: 8px;
+    display: inline-block;
+}
+.footer-links.social li{display: inline-block;}
+.footer-links.social li a{
+  margin: 0;
+  width: 25px;
+  height: 25px;
+  background-color: #394e59;
+  color: #fff;
+  padding: 3px 8px;
+  border-radius: 13px;
+}
+.hero-right-info{
+    background: url(../Images/download-report-img.jpg);
+    min-height: 86vh;
+    position: relative;
+        background-size: cover;
+}
+.hero-right-info-inner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -50%);
+    width: 70%;
+}
+.right-infos ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.right-infos ul li{
+   display: inline-block;
+    text-align: left;
+    margin: 0 10px;
+}
+.right-infos ul li p.head{
+   font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+}
+.right-infos ul li p{
+  color: #004368;
+   font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.right-infos ul li p span{
+   font-size: 24px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #394e59;
+}
+.hero-right-info h2{
+  font-size: 40px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: -1px;
+  color: #f4f7f8;
+  margin-bottom: 25px;
+  position: relative;
+}
+.hero-right-info h2:before{
+      content: '';
+    position: absolute;
+    top: 15px;
+    left: -75px;
+    background: url(../Images/icon.svg) no-repeat;
+    background-size: 52px;
+    width: 60px;
+    height: 80px;
+}
+.hero-right-info ul{
+  list-style: none;
+  padding: 0;
+}
+.hero-right-info ul li{
+    color: #fff;
+    font-weight: normal;
+    font-size: 14px;
+    background: url(../Images/check.png) no-repeat;
+    background-size: 22px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+.hero .schedule-home-card p{
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #394e59;
+}
+.right-infos ul li:first-child{
+    margin-right: 30px;
+}
+@media all and (min-width: 1601px) and (max-width: 1920px){ 
+  .hero .schedule-home-card {
+    width: 62%;
+    padding: 50px 30px;
+  }
+  .hero .custom-form-control {
+    padding: 15px 20px;
+  }
+
+}
